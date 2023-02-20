@@ -2,7 +2,7 @@ header{
 background-color:aquamarine; 
   color:navy;
   font-family:'Times New Roman', Times, serif;
-  font: size 2rem;/*This should be font-size:2rem;*/
+  font-size: 2rem;
   font-weight: 700;
   text-align: center;
   margin: 0rem;
