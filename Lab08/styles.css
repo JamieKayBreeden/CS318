@@ -54,7 +54,7 @@ position: fixed;
 transform: rotate(90deg);
 z-index: 1;
 top: 32rem;
-right: -17%;}
+right: -5rem;}
 section>h2{border-bottom: 2rem solid #e2512d}
 @media (min-width:1000px){
 .animal-background{height: 100rem;
@@ -66,5 +66,8 @@ section span{font-size: 4rem;
 top: 26%;
 left: 48%;}
 nav{position: absolute;
-top: 2rem;}
+top: 1rem;
+left: 15rem;}
+article{max-width: 60rem;
+margin: 0 auto}
 }
