@@ -1,0 +1,11 @@
+body{font-family:'Satisfy', cursive;
+text-align: center;
+font-size: 1rem;}
+header{font-family: 'Allura', cursive;
+font-size: 1.5rem;
+text-align: center;}
+header>img{width: 27rem;}
+nav{background-color: #275218;}
+a{color: white;}
+.beer{width: 25rem;}
+.country{width: 35rem;}
