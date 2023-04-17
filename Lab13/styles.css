@@ -11,14 +11,28 @@ background-color: #5c765a;
 padding: 1rem;
 font-weight: 800;
 display:inline-block;
-margin: 1rem 1rem 1rem 0;}
+margin: 1rem 1rem 1rem 0;
+transition-property: opacity;
+transition-duration: .2s;
+transition-timing-function: ease-in-out;}
+nav>a:hover{opacity: .7;}
 .sidenav{background-color: #5c765a;
 padding: .5rem 1rem;}
 .sidenav>a{background-color: #fae2c0;
 color: #0f0f0f;
 padding: .5rem 1rem;
 display: inline-block;
-margin: .5rem .5rem 0 0;}
+margin: 1rem 2rem;
+position: relative;}
+.sidenav>a:before, .sidenav>a:after{
+position: absolute;
+width: 1.7rem;
+height: 2.5rem;
+top: -.6rem;}
+.sidenav>a:before{content: url(images/scroll-left.svg);
+left: -1.6rem}
+.sidenav>a:after{content: url(images/scroll-right.svg);
+right: -1.6rem;}
 main{padding: 1rem;}
 section{padding: 0 1rem;}
 .title{margin: 0;
