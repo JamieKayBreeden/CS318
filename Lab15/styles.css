@@ -35,7 +35,16 @@ transform: rotate(180deg) scale(1);}
 .planet{animation-fill-mode: forwards;
 left: 30%;}
 .rover:after{z-index: 1;
-transform-origin: bottom;
+transform-origin: center bottom;
 animation: rotate 2s linear infinite alternate;
 }
-@keyframes .rover:after{}
+@keyframes rotate{
+from{
+transform:rotate(-5deg)
+}
+to{transform: rotate(-33deg);}
+}
+.rover{
+
+
+}
