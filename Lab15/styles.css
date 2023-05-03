@@ -30,7 +30,7 @@ top: 2rem;}
 from{bottom: 0; 
 transform: rotate(0) scale(1);}
 to{bottom: 75%;
-transform: rotate(180deg) scale(1);}
+transform: rotate(180deg) scale(2);}
 }
 .planet{animation-fill-mode: forwards;
 left: 30%;}
@@ -48,8 +48,25 @@ to{transform: rotate(-33deg);}
 animation-name: drive;
 animation-duration: 5s;
 animation-iteration-count: infinite;
-
+animation-direction: alternate;
 }
-@keyframes animation {
-    
+@keyframes drive {
+ from{left: 10;
+}   
+to{left: 90%;}
+}
+.star{width: 5rem;
+height: 5rem;
+position: fixed;
+right: 15rem;
+top: 5rem;}
+.star{
+animation-name: spin;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes spin {
+ from{transform: rotate(-30deg) scale(1);}   
+ to{transform: rotate(100deg) scale(1.5);}
 }
